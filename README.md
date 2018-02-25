@@ -2,7 +2,7 @@
 
 ## **Introduction**
 
-In this project, I will develop a deep learning model to achieve a near state-of-the-art performance on the MNIST handwritten dataset. I'm going to use Keras with TensorFlow.
+In this Assignment, I developed a multilayer perceptron model which uses ADAM Optimizer to acheive good performance on the MNIST handwritten dataset. I'm going to use Keras with TensorFlow.
 
 ## **MNIST Dataset**
 
@@ -10,6 +10,6 @@ This dataset was constructed from a number of scanned document datasets availabe
 
 ## **Baseline Model with Multilayer Perceptrons**
 
-To build a multilayer perceptron model, we flatten our 28 by 28 pixel images into a single 784 length vector for each image. We then change the grayscale values from 0-255 to 0-1 to make things easier on our neural network. (Normalization) Finally, we change the categories 1-9 into a binary matrix. Our current neural network structure is as follows:
+To build a multilayer perceptron model, we flatten our 28 by 28 pixel images into a single 784 length vector for each image. We then change the grayscale values from 0-255 to 0-1 to make things easier on our neural network. (Normalization) Finally, we change the categories 1-9 into a binary matrix. The current neural network structure is as follows:
 
 Visible Layer (784 Inputs) >> Hidden Layer (784 Neurons) >> Output Layer (10 Outputs)
